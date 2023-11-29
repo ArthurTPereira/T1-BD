@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node", "supertest", "@types/jest"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "src",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*", "node_modules/@types/jest", "server.ts", "router", "router"]
+}
